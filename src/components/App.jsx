@@ -1,11 +1,11 @@
 import React from 'react';
-import CartWidget from './CartWidget/CartWidget';
+import ItemListContainer from './ItemListContainer/ItemListContainer';
 import Navbar from './Navbar/Navbar';
 const App = () => {
   return (
     <div>
       <Navbar/>
-      <CartWidget cantObj={8}/>
+      <ItemListContainer content={"Hola soy un futuro producto (?)"}/>
     </div>
   )
 }
