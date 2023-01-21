@@ -1,5 +1,6 @@
 import React from 'react';
 import { useState } from 'react';
+import "./Counter.css";
 const Counter = () => {
   const valor=0;
   const [contador, setContador] = useState(0);
@@ -11,7 +12,8 @@ const Counter = () => {
       <button className='btn btn-dark' onClick={() =>menosCont()}>-</button>
         {contador}
       <button className='btn btn-dark' onClick={()=> masCont()}>+</button>
-      
+      <button id="prueba" > Agregar al carrito</button>
+     
     
     </>
   );

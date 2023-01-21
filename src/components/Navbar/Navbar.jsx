@@ -17,7 +17,7 @@ const Navbar = () => {
           <Categorias/>
         </ul>
       </div>
-      <CartWidget cantObj={3}/>
+      <CartWidget cantObj={1}/>
     </div>
   </nav>
   
