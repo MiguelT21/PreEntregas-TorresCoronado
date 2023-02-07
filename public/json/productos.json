@@ -1,0 +1,92 @@
+[
+  {
+    "id": 1,
+    "idCategoria": 1,
+    "nombre": "item",
+    "marca": "",
+    "modelo": "",
+    "precio": "",
+    "stock": "",
+    "img": ""
+  },
+  {
+    "id": 2,
+    "idCategoria": 2,
+    "nombre": "item",
+    "marca": "",
+    "modelo": "",
+    "precio": "",
+    "stock": "",
+    "img": ""
+  },
+  {
+    "id": 3,
+    "idCategoria": 3,
+    "nombre": "item",
+    "marca": "",
+    "modelo": "",
+    "precio": "",
+    "stock": "",
+    "img": ""
+  },
+  {
+    "id": 4,
+    "idCategoria": 4,
+    "nombre": "item",
+    "marca": "",
+    "modelo": "",
+    "precio": "",
+    "stock": "",
+    "img": ""
+  },
+  {
+    "id": 5,
+    "idCategoria": 5,
+    "nombre": "item",
+    "marca": "",
+    "modelo": "",
+    "precio": "",
+    "stock": "",
+    "img": ""
+  },
+  {
+    "id": 6,
+    "idCategoria": 6,
+    "nombre": "item",
+    "marca": "",
+    "modelo": "",
+    "precio": "",
+    "stock": "",
+    "img": ""
+  },
+  {
+    "id": 7,
+    "idCategoria": 7,
+    "nombre": "item",
+    "marca": "",
+    "modelo": "",
+    "precio": "",
+    "stock": "",
+    "img": ""
+  },
+  {
+    "id": 8,
+    "idCategoria": 8,
+    "nombre": "item",
+    "marca": "",
+    "modelo": "",
+    "precio": "",
+    "stock": "",
+    "img": ""
+  },
+  {
+    "id": 9,
+    "idCategoria": 9,
+    "nombre": "item",
+    "marca": "",
+    "modelo": "",
+    "precio": "",
+    "stock": "",
+    "img": ""
+  }
+]

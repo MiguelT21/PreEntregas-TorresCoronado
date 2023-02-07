@@ -1,6 +1,25 @@
-.App {
+.cardProducto{
+  width: 18rem;
+  margin:4px;
+  background-color: hsl(0, 0%, 97%);
+}
+.cardBody{
+  background-color: aliceblue;
+  margin-bottom:3px ;
   text-align: center;
 }
+.img{
+  margin-top: 3px;
+}
+.cardProductos{
+  margin:4px;
+  align-items: center;
+  justify-content: center;
+}
+/* .App {
+  text-align: center;
+}
+
 
 .App-logo {
   height: 40vmin;
@@ -36,3 +55,4 @@
     transform: rotate(360deg);
   }
 }
+ */
