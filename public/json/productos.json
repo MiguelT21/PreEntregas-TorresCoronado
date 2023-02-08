@@ -2,91 +2,91 @@
   {
     "id": 1,
     "idCategoria": 1,
-    "nombre": "item",
-    "marca": "",
-    "modelo": "",
-    "precio": "",
-    "stock": "",
-    "img": ""
+    "nombre": "Laptop",
+    "marca": "Dell",
+    "modelo": "DRG",
+    "precio": "4500",
+    "stock": "5",
+    "img": "laptop.jpg"
   },
   {
     "id": 2,
     "idCategoria": 2,
-    "nombre": "item",
-    "marca": "",
-    "modelo": "",
-    "precio": "",
-    "stock": "",
-    "img": ""
+    "nombre": "Desktop",
+    "marca": "Dell",
+    "modelo": "ASE",
+    "precio": "6600",
+    "stock": "9",
+    "img": "desktop.jpg"
   },
   {
     "id": 3,
     "idCategoria": 3,
-    "nombre": "item",
-    "marca": "",
-    "modelo": "",
-    "precio": "",
-    "stock": "",
-    "img": ""
+    "nombre": "Smartphone",
+    "marca": "Motorola",
+    "modelo": "ALC",
+    "precio": "3400",
+    "stock": "3",
+    "img": "smartphone.jpg"
   },
   {
     "id": 4,
     "idCategoria": 4,
-    "nombre": "item",
-    "marca": "",
-    "modelo": "",
-    "precio": "",
-    "stock": "",
-    "img": ""
+    "nombre": "Monitor",
+    "marca": "Samsung",
+    "modelo": "QPW",
+    "precio": "7000",
+    "stock": "9",
+    "img": "monitor.jpg"
   },
   {
     "id": 5,
     "idCategoria": 5,
-    "nombre": "item",
-    "marca": "",
-    "modelo": "",
-    "precio": "",
-    "stock": "",
-    "img": ""
+    "nombre": "Camara",
+    "marca": "Hisense",
+    "modelo": "PDS",
+    "precio": "650",
+    "stock": "15",
+    "img": "camara.jpg"
   },
   {
     "id": 6,
     "idCategoria": 6,
-    "nombre": "item",
-    "marca": "",
-    "modelo": "",
-    "precio": "",
-    "stock": "",
-    "img": ""
+    "nombre": "Television",
+    "marca": "Samsung",
+    "modelo": "LLS",
+    "precio": "13500",
+    "stock": "8",
+    "img": "television.jpg"
   },
   {
     "id": 7,
     "idCategoria": 7,
-    "nombre": "item",
-    "marca": "",
-    "modelo": "",
-    "precio": "",
-    "stock": "",
-    "img": ""
+    "nombre": "Tarjeta Grafica",
+    "marca": "Asus",
+    "modelo": "XRC",
+    "precio": "8900",
+    "stock": "2",
+    "img": "tarjetagrafica.jpg"
   },
   {
     "id": 8,
     "idCategoria": 8,
-    "nombre": "item",
-    "marca": "",
-    "modelo": "",
-    "precio": "",
-    "stock": "",
-    "img": ""
+    "nombre": "Procesador",
+    "marca": "AMD",
+    "modelo": "MLD",
+    "precio": "5400",
+    "stock": "2",
+    "img": "procesador.jpg"
   },
   {
     "id": 9,
     "idCategoria": 9,
-    "nombre": "item",
-    "marca": "",
-    "modelo": "",
-    "precio": "",
-    "stock": "",
-    "img": ""
+    "nombre": "Tarjet Madre",
+    "marca": "Asus",
+    "modelo": "KLS",
+    "precio": "2500",
+    "stock": "5",
+    "img": "tarjetamadre.jpg"
   }
 ]

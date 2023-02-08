@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 
 const Categorias_dispositivos = () => {
   return (
@@ -8,9 +9,9 @@ const Categorias_dispositivos = () => {
               
             </a>
             <ul className="dropdown-menu">
-              <li><a className="dropdown-item" href="#">Laptops</a></li>
-              <li><a className="dropdown-item" href="#">Desktops</a></li>
-              <li><a className="dropdown-item" href="#">Smartphones</a></li>
+              <li><Link className='dropdown-item' to={"/category/1"}>Laptops</Link></li>
+              <li><Link className='dropdown-item' to={"/category/2"}>Desktops</Link></li>
+              <li><Link className='dropdown-item' to={"/category/3"}>Smartphones</Link></li>
             </ul>
          
           
