@@ -1,6 +1,11 @@
 import React from 'react';
 import ItemCounter from '../ItemCounter/ItemCounter';
 const ItemDetail = ({item}) => {
+  const onAdd = (cantidad) => { //Agregar el producto al carrito
+    console.log(cantidad)
+    console.log(item)
+  }
+
   return (
     <div className='row g-0'>
       <div className='col-md-4'>
@@ -13,7 +18,8 @@ const ItemDetail = ({item}) => {
         <p className='card-text'>Marca: {item.marca}</p>
         <p className='card-text'>Precio: ${new Intl.NumberFormat('de-DE').format(item.precio)}</p>
         <p className='card-text'>Stock: {item.stock}</p>
-        <ItemCounter valInicial={1} stock={item.stock}/>
+        <ItemCounter valInicial={1} stock={item.stock} onAdd={onAdd}/>
+        
         <button className='btn btn-secondary'>Finalizar Compra</button>
         </div>
       </div>

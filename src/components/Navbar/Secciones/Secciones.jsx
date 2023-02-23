@@ -7,7 +7,7 @@ const Secciones = () => {
             <Link className="nav-link" to={"/"}><button className="btn btn-dark">Inicio</button></Link>
           </li>
           <li className="nav-item">
-            <Link className="nav-link" to={"/contacto"}><button className="btn btn-dark"> ¿Quienes somos?</button></Link>
+            <Link className="nav-link" to={"/quienes-somos"}><button className="btn btn-dark"> ¿Quienes somos?</button></Link>
           </li>
       
     </>
