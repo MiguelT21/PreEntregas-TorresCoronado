@@ -4,7 +4,7 @@ import Secciones from './Secciones/Secciones';
 import Categorias_dispositivos from './Categorias_dispositivos/Categorias_dispositivos';
 import Categorias_electronica from './Categorias_electronica/Categorias_electronica';
 import CategoriasHardware from './Categorias_hardware/Categorias_hardware';
-
+import { BotonDarkMode } from "./BotonDarkMode/BotonDarkMode";
 const Navbar = () => {
   return (
     <nav className="navbar navbar-expand-lg bg-light">
@@ -22,6 +22,7 @@ const Navbar = () => {
         </ul>
       </div>
       <CartWidget cantObj={1}/>
+      <BotonDarkMode/>
     </div>
   </nav>
   

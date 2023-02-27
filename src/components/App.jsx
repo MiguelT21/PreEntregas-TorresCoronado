@@ -8,11 +8,14 @@ import ItemListContainer from './ItemListContainer/ItemListContainer';
 import ItemDetailContainer from './ItemDetailContainer/ItemDetailContainer';
 import Navbar from './Navbar/Navbar';
 import Contacto from './Contacto/Contacto';
+//Context
+import { DarkModeProvider } from '../context/DarkModeContext';
 
 const App = () => {
   return (
     <>
       <BrowserRouter>
+      <DarkModeProvider>
       <Navbar/>
       <Routes>
         <Route path='/' element={<ItemListContainer/>}/> 
@@ -21,6 +24,7 @@ const App = () => {
         <Route path='/quienes-somos' element={<Contacto/>}/>
       </Routes> 
       <ToastContainer/>
+      </DarkModeProvider>
     </BrowserRouter>
      
     </>
