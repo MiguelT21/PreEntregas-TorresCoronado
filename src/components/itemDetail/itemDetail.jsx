@@ -3,7 +3,6 @@ import ItemCounter from '../ItemCounter/ItemCounter';
 //Context
 import { useDarkModeContext } from '../../context/DarkModeContext'
 const ItemDetail = ({item}) => {
-  const {darkMode} = useDarkModeContext()
   const onAdd = (cantidad) => { //Agregar el producto al carrito
     console.log(cantidad)
     console.log(item)
@@ -23,7 +22,8 @@ const ItemDetail = ({item}) => {
         <p className='card-text'>Stock: {item.stock}</p>
         <ItemCounter valInicial={1} stock={item.stock} onAdd={onAdd}/>
         
-        <button className='btn btn-secondary'>Finalizar Compra</button>
+        <button className='btn btn-dark'>Finalizar Compra</button>
+
         </div>
       </div>
     </div>
