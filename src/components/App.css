@@ -16,6 +16,20 @@
   align-items: center;
   justify-content: center;
 }
+.itemDetail {
+  max-width: 540px;
+  margin-top: 20px;
+}
+
+.itemDetailBodyDark {
+  background-color: hsl(0, 0, 33%);
+  color:white;
+}
+
+.darkMode {
+  background-color: black;
+  color: gainsboro;
+}
 /* .App {
   text-align: center;
 }
