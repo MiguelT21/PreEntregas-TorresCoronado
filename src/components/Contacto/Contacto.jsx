@@ -2,6 +2,8 @@ import React from "react";
 import { useNavigate } from "react-router-dom";
 import { toast } from "react-toastify";
 import * as Yup from "yup";
+import './Contacto.css'
+
 
 const Contacto = () => {
   const datosFormulario = React.useRef();
@@ -41,11 +43,11 @@ const Contacto = () => {
   };
 
   return (
+    <div className="container d-flex justify-content-center align-items-center" style={{ height: "100vh" }}>
+  <div className="card" style={{ width: "50%", padding: "20px" }}>
     <div className="container" style={{ marginTop: "20px" }}>
+      <h3 style={{ textAlign: "center" }}>¡CONTACTANOS!</h3>
       <form onSubmit={consultarFormulario} ref={datosFormulario}>
-        <div className="container">
-          <h3>¡CONTACTANOS!</h3>
-        </div>
         <div className="mb-3">
           <label htmlFor="nombre" className="form-label">
             Nombre
@@ -105,6 +107,9 @@ const Contacto = () => {
         </button>
       </form>
     </div>
+  </div>
+</div>
+
   );
 };
 

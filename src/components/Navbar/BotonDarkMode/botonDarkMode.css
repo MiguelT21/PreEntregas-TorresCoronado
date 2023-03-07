@@ -1,21 +1,20 @@
 .theme-switch-wrapper {
   display: flex;
   align-items: center;
-
-
-}
-.theme-switch {
+  }
+  
+  .theme-switch {
   display: inline-block;
   height: 34px;
   position: relative;
   width: 60px;
-}
-
-.theme-switch input {
+  }
+  
+  .theme-switch input {
   display:none;
-}
-
-.slider {
+  }
+  
+  .slider {
   background-color: #ccc;
   bottom: 0;
   cursor: pointer;
@@ -24,9 +23,9 @@
   right: 0;
   top: 0;
   transition: .4s;
-}
-
-.slider:before {
+  }
+  
+  .slider:before {
   background-color: #fff;
   bottom: 4px;
   content: "";
@@ -35,20 +34,50 @@
   position: absolute;
   transition: .4s;
   width: 26px;
-}
-
-input:checked + .slider {
+  }
+  
+  input:checked + .slider {
   background-color: black;
-}
-
-input:checked + .slider:before {
+  }
+  
+  input:checked + .slider:before {
   transform: translateX(26px);
-}
-
-.slider.round {
+  }
+  
+  .slider.round {
   border-radius: 34px;
-}
-
-.slider.round:before {
+  }
+  
+  .slider.round:before {
   border-radius: 50%;
-}
+  }
+  
+  /* Agregamos animación */
+  .slider:before {
+  transition: all .4s linear;
+  }
+  
+  .slider:after {
+  content: "🌞";
+  font-size: 18px;
+  color: #FFA500;
+  position: absolute;
+  top: 5px;
+  left: 10px;
+  transition: all .4s linear;
+  }
+  
+  input:checked + .slider:after {
+  content: "🌜";
+  color: #FFFFFF;
+  left: 32px;
+  }
+  
+  input:checked + .slider:before {
+  transform: translateX(26px);
+  background-color: #FFFFFF;
+  }
+  
+  input:checked + .slider {
+  background-color: #000000;
+  }

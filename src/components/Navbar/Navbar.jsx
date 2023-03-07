@@ -5,6 +5,8 @@ import Categorias_dispositivos from './Categorias_dispositivos/Categorias_dispos
 import Categorias_electronica from './Categorias_electronica/Categorias_electronica';
 import CategoriasHardware from './Categorias_hardware/Categorias_hardware';
 import { BotonDarkMode } from "./BotonDarkMode/BotonDarkMode";
+// import './Navbar.css';
+
 const Navbar = () => {
   return (
     <nav className="navbar navbar-expand-lg bg-light">
