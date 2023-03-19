@@ -1,7 +1,7 @@
 import React from 'react';
 import { useState } from 'react';
+import { toast } from 'react-toastify';
 import "./ItemCounter.css";
-import { toast } from 'react-toastify';import "./ItemCounter.css";
 
 const ItemCounter = ({ valInicial, stock, onAdd }) => {
   const [contador, setContador] = useState(valInicial);
